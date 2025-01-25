@@ -106,13 +106,13 @@
                         with the local conditions.
                                     </p><br>
                                      
-                                    <div  class="nav-button ">
-                                                   <label id="two">Download CV: </label> <br>
+                                      <div>
+                                                   <label id="h2">Download CV: </label><br>
                                               <input   type="password" name="password" id="password" placeholder="Password"> 
                                               <button onclick="chackpassword()" id="submit">Open</button>
                                               <p id="two"  style="color: red; display: none;">Wrong!!</p>  
                                              </div>  
-                                              <a style="display:none ;" id="one" href="resume.pdf" target="_blank" rel="noopener noreferrer" ><button class="btn">Download CV<i class="uil uil-envelope"></i></button></a>                                                           
+                                              <a style="display:none ;" id="one" href="image/resume.pdf" target="_blank" rel="noopener noreferrer" ><button class="btn">Download CV<i class="uil uil-envelope"></i></button></a>                                                           
                                    
                                     <script>
                                     function chackpassword(){
@@ -123,6 +123,7 @@
                                             document.getElementById("two").style.display = "none";
                                             document.getElementById("password").style.display = "none";
                                             document.getElementById("submit").style.display = "none";
+                                            document.getElementById("h2").style.display = "none";
                                         }else{
                                             document.getElementById("two").style.display = "block";
                                         }
@@ -130,7 +131,7 @@
                                     checkpassword();
                                     </script>
                 </div>
-            </div>
+            </div>                
             <div class="col">
                 <div class="skills-box">
                    
